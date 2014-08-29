@@ -1,0 +1,24 @@
+<itsabeastystatewerein version='2.0' sample='1000'>
+<statenode id='Tree.t:alignment'>(((0:1.2879934129214556,(1:0.41270623427795966,2:0.41270623427795966)6:0.8752871786434959)7:0.11013051963042342,3:1.398123932551879)8:0.6825051897610772,(4:1.8525025942872841,5:1.8525025942872841)9:0.22812652802567213)10:0.0</statenode>
+<statenode id='kappa.s:alignment'>kappa.s:alignment[1 1] (0.0,Infinity): 3.39589866663007 </statenode>
+<statenode id='birthRateY.t:alignment'>birthRateY.t:alignment[1 1] (-Infinity,Infinity): 1.3501483410657495 </statenode>
+<statenode id='clockRate.c:alignment'>clockRate.c:alignment[1 1] (0.0,Infinity): 0.02861550955968477 </statenode>
+<statenode id='freqParameter.s:alignment'>freqParameter.s:alignment[4 1] (0.0,1.0): 0.25 0.25 0.24164012574104965 0.25835987425895035 </statenode>
+</itsabeastystatewerein>
+<!--
+{operators:[
+{id:"allTipDatesRandomWalker.t:alignment", p:1.0, accept:0, reject:0, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0},
+{id:"treeScaler.t:alignment", p:0.5, accept:8, reject:31, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0},
+{id:"treeRootScaler.t:alignment", p:0.5, accept:9, reject:29, acceptFC:0, rejectFC:0, rejectIv:3, rejectOp:3},
+{id:"UniformOperator.t:alignment", p:NaN, accept:95, reject:274, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0},
+{id:"SubtreeSlide.t:alignment", p:1.0, accept:15, reject:182, acceptFC:0, rejectFC:0, rejectIv:109, rejectOp:84},
+{id:"narrow.t:alignment", p:NaN, accept:23, reject:149, acceptFC:0, rejectFC:0, rejectIv:46, rejectOp:0},
+{id:"wide.t:alignment", p:NaN, accept:1, reject:36, acceptFC:0, rejectFC:0, rejectIv:31, rejectOp:22},
+{id:"WilsonBalding.t:alignment", p:NaN, accept:0, reject:41, acceptFC:0, rejectFC:0, rejectIv:30, rejectOp:20},
+{id:"KappaScaler.s:alignment", p:0.5, accept:1, reject:0, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0},
+{id:"CalibratedYuleBirthRateScaler.t:alignment", p:0.75, accept:23, reject:6, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0},
+{id:"StrictClockRateScaler.c:alignment", p:0.75, accept:18, reject:22, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0},
+{id:"strictClockUpDownOperator.c:alignment", p:0.75, accept:17, reject:20, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0},
+{id:"FrequenciesExchanger.s:alignment", p:0.010000000000000004, accept:1, reject:0, acceptFC:0, rejectFC:0, rejectIv:0, rejectOp:0}
+]}
+-->
